@@ -1,0 +1,41 @@
+.repo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'roboto';
+  margin: 10px;
+  justify-content: center;
+  background-color: #f8f8ff;
+  border: 0px;
+  border-radius: 5px;
+  padding: 30px;
+  width: 250px;
+}
+.name {
+  color: #e73959;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 1px;
+  text-align: center;
+}
+.count {
+  font-size: 18px;
+  color: #1e293b;
+  margin-left: 20px;
+  margin-bottom: 1px;
+}
+.icon-count {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1px;
+  justify-content: flex-start;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.repo-img {
+  width: 150px;
+  margin-left: 20px;
+}
